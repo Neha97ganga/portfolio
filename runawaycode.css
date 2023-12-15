@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+    background-color: black;
+}
+h1{
+    font-family: 'Cinzel', serif;
+}
+
+.top {
+    position: relative;
+    height: 100vh;
+}
+
+.background-image {
+    background-image: url('code2.webp');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the height */
+}
+.content{
+    position:absolute;
+    top: 30%;
+    right: 200px;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+}
+.middle-container{
+    font-size: 50px;
+}
+.profile {
+    float: right;
+    max-width: 50%;      
+    display:inline;
+}
+
+#profile {
+    max-width: 100%;     
+    height: auto;        
+    display: inline;
+}
+.about{
+    color: azure;
+    display: inline-block;
+    width:50%;
+}
+hr{
+    border-color: rgb(213, 206, 206);
+    border-style: none;
+    border-top-style: dotted;
+    display: block;
+    width: 10%;
+    border-width: 20px;
+
+}
